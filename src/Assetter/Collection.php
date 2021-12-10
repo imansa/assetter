@@ -143,7 +143,7 @@ class Collection implements CollectionInterface
     /**
      * {@inheritdoc}
      */
-    public function offsetExists($offset): bool
+    public function offsetExists(mixed $offset): bool
     {
         return isset($this->collection[$offset]);
     }
@@ -151,7 +151,7 @@ class Collection implements CollectionInterface
     /**
      * {@inheritdoc}
      */
-    public function offsetGet($offset)
+    public function offsetGet(mixed $offset): mixed
     {
         return $this->collection[$offset];
     }
