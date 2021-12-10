@@ -1,9 +1,9 @@
 {
-    "name": "requtize/assetter",
+    "name": "imansa/assetter",
     "type": "library",
     "description": "Assets manager for PHP. Allow manage CSS and JS files in website and its dependencies. Also allows refresh cache in browsers by adding revisions of loaded files.",
     "keywords": ["asset","assets","files manager","manager"],
-    "homepage": "https://github.com/requtize/assetter",
+    "homepage": "https://github.com/imansa/assetter",
     "license": "MIT",
     "version": "2.0.0",
     "authors": [
